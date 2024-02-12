@@ -1,14 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {View, Text} from "react-native";
+import {View,StyleSheet} from "react-native";
+
+const style = StyleSheet.create({
+  container:{
+    height: "100%",
+    width: "100%"
+  }
+})
 
 function App() {
   return (
-    <View>
-      <Text>Hello there!</Text>
-    </View>
-  );
+    <div> Hello there!</div>
+  )
 }
 
 export default App;
